@@ -1,0 +1,55 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: chartreuse;
+    background-color: black;
+}
+
+.container {
+    max-width: 780px;
+    margin: auto;
+    border: dashed 1px chartreuse;
+    padding: 16px 32px;
+}
+
+span {
+    color: white;
+}
+
+input {
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+    width: 100%;
+}
+
+input:focus-visible {
+    outline: none
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    outline: none;
+    border: solid 1px white;
+    padding: 8px 16px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.white:hover {
+    color: black;
+    background-color: white;
+}
+
+.green {
+    background-color: chartreuse;
+}
+
+.green:hover {
+    background-color: black;
+}

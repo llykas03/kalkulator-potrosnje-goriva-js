@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator potrosnje/cene</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kalkulator potrosnje goriva</h1>
+        <div class="row">
+            <p>Unesite zeljenu udaljenost: <span>KM</span></p>
+            <p><input type="number" placeholder="150KM" id="udaljenost"></p>
+        </div>
+        <div class="row">
+            <p>Potrosnja vozila: <span>L/100KM</span></p>
+            <p><input type="number" placeholder="6.5" id="potrosnja"></p>
+        </div>
+        <div class="row">
+            <p>Cena 1l goriva: <span>RSD</span></p>
+            <p><input type="number" placeholder="183" id="cena"></p>
+        </div>
+        <button class="btn green" onclick="izracunaj()">Izracunaj</button>
+        <button class="btn white" onclick="restart()">Restartuj</button>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
